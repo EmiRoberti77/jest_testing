@@ -13,7 +13,7 @@ const Counter = () => {
         count
       </button>
       <hr />
-      <input type="text" data-testid="inputVal" defaultValue={10} />
+      <input type="text" data-testid="inputVal" />
     </div>
   );
 };

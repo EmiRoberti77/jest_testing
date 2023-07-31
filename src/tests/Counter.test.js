@@ -29,5 +29,5 @@ test(incrementTestCriteria, () => {
 test(inputElementTest, () => {
   render(<Counter />);
   const inputElement = screen.getByTestId('inputVal');
-  expect(inputElement.value).toBe('10');
+  expect(inputElement.value).toBe('');
 });
